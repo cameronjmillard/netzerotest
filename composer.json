@@ -1,0 +1,16 @@
+{
+    "name": "cammillard/reqres-client",
+    "description": "A PHP client for interacting with the ReqRes API",
+    "type": "library",
+    "require": {
+        "php": ">=8.3",
+        "guzzlehttp/guzzle": "^7.0",
+        "phpunit/phpunit": "^10.0",
+        "respect/validation": "^2.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Cammillard\\ReqResClient\\": "src/"
+        }
+    }
+}
